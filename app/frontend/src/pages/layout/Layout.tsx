@@ -6,7 +6,6 @@ import styles from "./Layout.module.css";
 import { useLogin } from "../../authConfig";
 
 import { LoginButton } from "../../components/LoginButton";
-
 const Layout = () => {
     return (
         <div className={styles.layout}>
@@ -50,13 +49,12 @@ const Layout = () => {
                             </li> */}
                         </ul>
                     </nav>
-                    <a href="imagepage.html">
+                    <a href="/workspaces/azure-search-openai-demo/app/frontend/src/pages/imgpage.html">
                         <h4 className={styles.headerRightText}>Architecture</h4>
                     </a>
                     {useLogin && <LoginButton />}
                 </div>
             </header>
-
             <Outlet />
         </div>
     );

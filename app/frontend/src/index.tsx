@@ -10,6 +10,7 @@ import "./index.css";
 
 import Layout from "./pages/layout/Layout";
 import Chat from "./pages/chat/Chat";
+import Image from "./pages/layout/imgpage";
 
 var layout;
 if (useLogin) {
@@ -41,6 +42,10 @@ if (useLogin) {
 initializeIcons();
 
 const router = createHashRouter([
+    {
+        path: "/image",
+        element: <Image />
+    },
     {
         path: "/",
         element: layout,

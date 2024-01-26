@@ -51,9 +51,12 @@ const Layout = () => {
                     </nav>
 
                     {/* <h4 className={styles.headerRightText}>Architecture</h4> */}
-                    <button type="button" className={styles.button1}>
-                        Architecture
-                    </button>
+                    <Link to={"/image"}>
+                        {" "}
+                        <button type="button" className={styles.button1}>
+                            Architecture
+                        </button>
+                    </Link>
 
                     {useLogin && <LoginButton />}
                 </div>

@@ -72,7 +72,7 @@
 }
 .architecture {
     height: 500px;
-    width: 700px;
+    width: 900px;
     margin: auto;
 }
 .archimg {
@@ -85,9 +85,10 @@
     background-color: #5d378f;
     color: white;
     border: 2px solid;
-    border-radius: 10px;
-    font-size: 14px;
+    border-radius: 6px;
+    font-size: 16px;
     padding: 8px 12px;
+    /* font-weight: bold; */
 }
 
 .button1:hover {

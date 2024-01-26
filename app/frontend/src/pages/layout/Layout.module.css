@@ -70,7 +70,17 @@
     font-weight: normal;
     margin-left: 20px;
 }
+.button1 {
+    margin-left: 20px;
+    background-color: #5d378f;
+    color: white;
+    border: 2px solid;
+}
 
+.button1:hover {
+    background-color: #008cba;
+    color: white;
+}
 .microsoftLogo {
     height: 23px;
     font-weight: 600;

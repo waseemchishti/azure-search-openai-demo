@@ -5,6 +5,14 @@ import veraqor from "../../assets/veraqor.png";
 import styles from "./Layout.module.css";
 import { useLogin } from "../../authConfig";
 
+// add code block
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+const container = document.getElementById("root");
+const root = ReactDOM.createRoot(container);
+root.render(<p>Hello</p>);
+//
 import { LoginButton } from "../../components/LoginButton";
 const Layout = () => {
     return (
@@ -49,7 +57,8 @@ const Layout = () => {
                             </li> */}
                         </ul>
                     </nav>
-                    <a href="/workspaces/azure-search-openai-demo/app/frontend/src/pages/imgpage.html">
+
+                    <a href="/workspaces/azure-search-openai-demo/app/frontend/src/pages/appcomponents.png">
                         <h4 className={styles.headerRightText}>Architecture</h4>
                     </a>
                     {useLogin && <LoginButton />}

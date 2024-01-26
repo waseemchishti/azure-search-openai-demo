@@ -52,7 +52,7 @@ const Layout = () => {
 
                     {/* <h4 className={styles.headerRightText}>Architecture</h4> */}
                     <Link to={"/image"}>
-                        {" "}
+                  
                         <button type="button" className={styles.button1}>
                             Architecture
                         </button>

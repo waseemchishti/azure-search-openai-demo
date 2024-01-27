@@ -107,12 +107,12 @@
 /* .githubLogo {
     height: 60px;
 } */
-.btn-box {
+.btnbox {
     display: flex;
     justify-content: end;
     align-items: center;
 }
-.back-btn {
+.backbtn {
     background-color: #5d378f;
     padding: 5px 10px;
     color: white;

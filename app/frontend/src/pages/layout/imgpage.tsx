@@ -13,8 +13,8 @@ const Image = () => {
                 // height="4000px"
                 className={styles.archimg}
             />
-            <div className={styles.btn - box}>
-                <button className={style.back - btn}>Go Back</button>
+            <div className={styles.btnbox}>
+                <button className={style.backbtn}>Go Back</button>
             </div>
         </div>
     );

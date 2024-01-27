@@ -114,6 +114,10 @@
 }
 .backbtn {
     background-color: #5d378f;
-    padding: 5px 10px;
+    padding: 8px 15px;
     color: white;
+}
+.backbtn:hover {
+    background-color: #008cba;
+    cursor: pointer;
 }

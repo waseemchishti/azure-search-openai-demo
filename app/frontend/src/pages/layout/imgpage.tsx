@@ -1,6 +1,7 @@
 import styles from "./Layout.module.css";
 import architecture from "../../assets/appcomponents.png";
 import style from "react-syntax-highlighter/dist/esm/styles/hljs/a11y-dark";
+import { Link } from "react-router-dom";
 
 const Image = () => {
     return (
@@ -14,7 +15,9 @@ const Image = () => {
                 className={styles.archimg}
             />
             <div className={styles.btnbox}>
-                <button className={styles.backbtn}>Go Back</button>
+                <Link to={"/"}>
+                    <button className={styles.backbtn}>Go Back</button>
+                </Link>
             </div>
         </div>
     );

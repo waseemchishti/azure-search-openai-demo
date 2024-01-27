@@ -71,13 +71,17 @@
     margin-left: 20px;
 }
 .architecture {
-    height: 500px;
-    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: max-content;
+    width: max-content;
     margin: auto;
+    gap: 15px;
 }
 .archimg {
-    width: 100%;
-    height: 100%;
+    height: 500px;
+    width: 900px;
     display: block;
 }
 .button1 {
@@ -103,3 +107,13 @@
 /* .githubLogo {
     height: 60px;
 } */
+.btn-box {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.back-btn {
+    background-color: #5d378f;
+    padding: 5px 10px;
+    color: white;
+}

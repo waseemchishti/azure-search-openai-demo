@@ -14,7 +14,7 @@ const Image = () => {
                 className={styles.archimg}
             />
             <div className={styles.btnbox}>
-                <button className={style.backbtn}>Go Back</button>
+                <button className={styles.backbtn}>Go Back</button>
             </div>
         </div>
     );
